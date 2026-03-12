@@ -1,0 +1,178 @@
+[
+  {
+    "id": "palpation-head-neck",
+    "category": "palpation",
+    "categoryName": "触診",
+    "bodyPart": "head-neck",
+    "bodyPartName": "頭頸部",
+    "title": "頭頸部の触診",
+    "playlistId": "PLujj5MGbgRZ0aWAVQMyj0WQuF6NouJhFS",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLujj5MGbgRZ0aWAVQMyj0WQuF6NouJhFS",
+    "enabled": true
+  },
+  {
+    "id": "palpation-shoulder",
+    "category": "palpation",
+    "categoryName": "触診",
+    "bodyPart": "shoulder",
+    "bodyPartName": "肩関節部",
+    "title": "肩関節部の触診",
+    "playlistId": "PLujj5MGbgRZ3u3nFK2KpI8AfAIRkoLbDD",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLujj5MGbgRZ3u3nFK2KpI8AfAIRkoLbDD",
+    "enabled": true
+  },
+  {
+    "id": "palpation-elbow",
+    "category": "palpation",
+    "categoryName": "触診",
+    "bodyPart": "elbow",
+    "bodyPartName": "肘関節部",
+    "title": "肘関節部の触診",
+    "playlistId": "PLujj5MGbgRZ1VTyUNvYab55ZL0kJlaHO4",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLujj5MGbgRZ1VTyUNvYab55ZL0kJlaHO4",
+    "enabled": true
+  },
+  {
+    "id": "palpation-wrist",
+    "category": "palpation",
+    "categoryName": "触診",
+    "bodyPart": "wrist",
+    "bodyPartName": "手関節部",
+    "title": "手関節部の触診",
+    "playlistId": null,
+    "playlistUrl": null,
+    "enabled": false
+  },
+  {
+    "id": "palpation-trunk",
+    "category": "palpation",
+    "categoryName": "触診",
+    "bodyPart": "trunk",
+    "bodyPartName": "体幹部",
+    "title": "体幹部の触診",
+    "playlistId": "PLujj5MGbgRZ0ZYjlouLD6ngR3x5vfbeLc",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLujj5MGbgRZ0ZYjlouLD6ngR3x5vfbeLc",
+    "enabled": true
+  },
+  {
+    "id": "palpation-hip",
+    "category": "palpation",
+    "categoryName": "触診",
+    "bodyPart": "hip",
+    "bodyPartName": "骨盤・股関節部",
+    "title": "骨盤・股関節部の触診",
+    "playlistId": "PLujj5MGbgRZ0JPj15977foL6NWTupry9Z",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLujj5MGbgRZ0JPj15977foL6NWTupry9Z",
+    "enabled": true
+  },
+  {
+    "id": "palpation-knee",
+    "category": "palpation",
+    "categoryName": "触診",
+    "bodyPart": "knee",
+    "bodyPartName": "膝関節部",
+    "title": "膝関節部の触診",
+    "playlistId": "PLujj5MGbgRZ29qhGOwwUrMBvl5Wqcg1u7",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLujj5MGbgRZ29qhGOwwUrMBvl5Wqcg1u7",
+    "enabled": true
+  },
+  {
+    "id": "palpation-ankle",
+    "category": "palpation",
+    "categoryName": "触診",
+    "bodyPart": "ankle",
+    "bodyPartName": "足関節部",
+    "title": "足関節部の触診",
+    "playlistId": "PLujj5MGbgRZ17HFY34661RAvi-KGAPrvr",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLujj5MGbgRZ17HFY34661RAvi-KGAPrvr",
+    "enabled": true
+  },
+  {
+    "id": "ortho-head-neck",
+    "category": "ortho",
+    "categoryName": "整形外科的テスト",
+    "bodyPart": "head-neck",
+    "bodyPartName": "頭頸部",
+    "title": "頭頸部の整形外科的テスト",
+    "playlistId": "PLujj5MGbgRZ0ZQRAtdWOBkGoktrKJ7T9s",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLujj5MGbgRZ0ZQRAtdWOBkGoktrKJ7T9s",
+    "enabled": true
+  },
+  {
+    "id": "ortho-shoulder",
+    "category": "ortho",
+    "categoryName": "整形外科的テスト",
+    "bodyPart": "shoulder",
+    "bodyPartName": "肩関節部",
+    "title": "肩関節部の整形外科的テスト",
+    "playlistId": "PLujj5MGbgRZ3q3HG2p8zUgW1VQWxTXVDk",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLujj5MGbgRZ3q3HG2p8zUgW1VQWxTXVDk",
+    "enabled": true
+  },
+  {
+    "id": "ortho-elbow",
+    "category": "ortho",
+    "categoryName": "整形外科的テスト",
+    "bodyPart": "elbow",
+    "bodyPartName": "肘関節部",
+    "title": "肘関節部の整形外科的テスト",
+    "playlistId": "PLujj5MGbgRZ0g4mYZt5kKY2k58CbWwExD",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLujj5MGbgRZ0g4mYZt5kKY2k58CbWwExD",
+    "enabled": true
+  },
+  {
+    "id": "ortho-wrist",
+    "category": "ortho",
+    "categoryName": "整形外科的テスト",
+    "bodyPart": "wrist",
+    "bodyPartName": "手関節部",
+    "title": "手関節部の整形外科的テスト",
+    "playlistId": "PLujj5MGbgRZ1sj6Mqn5hG261Ul4xqo2BJ",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLujj5MGbgRZ1sj6Mqn5hG261Ul4xqo2BJ",
+    "enabled": true
+  },
+  {
+    "id": "ortho-trunk",
+    "category": "ortho",
+    "categoryName": "整形外科的テスト",
+    "bodyPart": "trunk",
+    "bodyPartName": "体幹・腰部",
+    "title": "体幹・腰部の整形外科的テスト",
+    "playlistId": "PLujj5MGbgRZ0rZ5pWQmhzqRkmcE2G3Uap",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLujj5MGbgRZ0rZ5pWQmhzqRkmcE2G3Uap",
+    "enabled": true
+  },
+  {
+    "id": "ortho-hip",
+    "category": "ortho",
+    "categoryName": "整形外科的テスト",
+    "bodyPart": "hip",
+    "bodyPartName": "股関節部",
+    "title": "股関節部の整形外科的テスト",
+    "playlistId": "PLujj5MGbgRZ1rVBNZxxlOxih_-n0WFnd5",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLujj5MGbgRZ1rVBNZxxlOxih_-n0WFnd5",
+    "enabled": true
+  },
+  {
+    "id": "ortho-knee",
+    "category": "ortho",
+    "categoryName": "整形外科的テスト",
+    "bodyPart": "knee",
+    "bodyPartName": "膝関節部",
+    "title": "膝関節部の整形外科的テスト",
+    "playlistId": "PLujj5MGbgRZ3nNrpNUIAoxFjVi4TzU7S7",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLujj5MGbgRZ3nNrpNUIAoxFjVi4TzU7S7",
+    "enabled": true
+  },
+  {
+    "id": "ortho-ankle",
+    "category": "ortho",
+    "categoryName": "整形外科的テスト",
+    "bodyPart": "ankle",
+    "bodyPartName": "足関節部",
+    "title": "足関節部の整形外科的テスト",
+    "playlistId": null,
+    "playlistUrl": null,
+    "enabled": false
+  }
+]

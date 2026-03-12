@@ -1,0 +1,12 @@
+{
+  "name": "sync-youtube-data",
+  "version": "1.0.0",
+  "description": "YouTube Data API v3を使ってプレイリストから動画情報を同期するスクリプト",
+  "main": "sync.js",
+  "scripts": {
+    "sync": "node sync.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}

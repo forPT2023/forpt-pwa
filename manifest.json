@@ -1,0 +1,22 @@
+{
+  "name": "触診・検査アプリ forPT",
+  "short_name": "forPT App",
+  "description": "理学療法士向けの触診・整形外科的テスト動画アプリ",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

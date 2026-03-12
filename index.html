@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="理学療法士向けの触診・整形外科的テスト動画アプリ">
+    <title>触診・検査アプリ forPT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="app-header">
+        <div class="header-content">
+            <img src="assets/logo.png" alt="forPT ONLINE" class="logo">
+            <h1>触診・検査アプリ</h1>
+        </div>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main class="app-main" id="app">
+        <!-- 読み込み中 -->
+        <div class="loading-screen" id="loading">
+            <div class="spinner"></div>
+            <p>読み込み中...</p>
+        </div>
+
+        <!-- トップ：種別選択 -->
+        <section class="screen" id="screen-category" style="display: none;">
+            <h2 class="screen-title">カテゴリーを選択</h2>
+            <div class="category-buttons">
+                <button class="btn-category btn-palpation" data-category="palpation">
+                    <span class="category-label">触診</span>
+                    <span class="category-sub">Palpation</span>
+                </button>
+                <button class="btn-category btn-ortho" data-category="ortho">
+                    <span class="category-label">整形外科的テスト</span>
+                    <span class="category-sub">Orthopedic Tests</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- 部位選択 -->
+        <section class="screen" id="screen-body-part" style="display: none;">
+            <div class="screen-header">
+                <button class="btn-back" id="btn-back-to-category">← カテゴリー選択へ</button>
+                <h2 class="screen-title" id="body-part-title">部位を選択</h2>
+            </div>
+            <div class="body-part-grid" id="body-part-list">
+                <!-- 動的に生成 -->
+            </div>
+        </section>
+
+        <!-- 動画一覧 -->
+        <section class="screen" id="screen-video-list" style="display: none;">
+            <div class="screen-header">
+                <button class="btn-back" id="btn-back-to-body-part">← 部位選択へ</button>
+                <h2 class="screen-title" id="video-list-title">動画一覧</h2>
+            </div>
+            
+            <!-- 検索 -->
+            <div class="search-box">
+                <input type="search" id="search-input" placeholder="動画を検索..." autocomplete="off">
+                <span class="search-icon">🔍</span>
+            </div>
+
+            <!-- ステータス -->
+            <div class="status-bar" id="status-bar">
+                <span id="video-count">0件の動画</span>
+                <button class="btn-refresh" id="btn-refresh" title="最新情報に更新">
+                    <span class="refresh-icon">↻</span>
+                </button>
+            </div>
+
+            <!-- 動画カード一覧 -->
+            <div class="video-grid" id="video-grid">
+                <!-- 動的に生成 -->
+            </div>
+
+            <!-- 空状態 -->
+            <div class="empty-state" id="empty-state" style="display: none;">
+                <p>動画が見つかりませんでした</p>
+            </div>
+        </section>
+
+        <!-- 動画詳細 -->
+        <section class="screen" id="screen-video-detail" style="display: none;">
+            <div class="screen-header">
+                <button class="btn-back" id="btn-back-to-list">← 一覧へ</button>
+            </div>
+            
+            <div class="video-detail">
+                <div class="video-player-wrapper" id="video-player-wrapper">
+                    <!-- YouTube埋め込みプレイヤー -->
+                    <div class="video-player" id="video-player">
+                        <!-- iframeが動的に挿入される -->
+                    </div>
+                </div>
+
+                <div class="video-info">
+                    <h2 class="video-title" id="detail-title">-</h2>
+                    <div class="video-meta">
+                        <span class="badge" id="detail-category">-</span>
+                        <span class="badge" id="detail-body-part">-</span>
+                        <span class="video-duration" id="detail-duration">-</span>
+                    </div>
+                    <div class="video-description" id="detail-description">
+                        <!-- 説明文（あれば） -->
+                    </div>
+                </div>
+
+                <div class="video-actions">
+                    <a class="btn btn-youtube" id="btn-open-youtube" href="#" target="_blank" rel="noopener noreferrer">
+                        YouTubeで開く
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- オフライン通知 -->
+        <div class="offline-notice" id="offline-notice" style="display: none;">
+            <p>📶 オフラインモードです。動画再生にはオンラインが必要です。</p>
+        </div>
+    </main>
+
+    <!-- フッター -->
+    <footer class="app-footer">
+        <p><small>© forPT ONLINE</small></p>
+        <p class="last-sync" id="last-sync">最終更新: -</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

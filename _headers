@@ -1,0 +1,12 @@
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+/sw.js
+  Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+
+/manifest.json
+  Content-Type: application/manifest+json
