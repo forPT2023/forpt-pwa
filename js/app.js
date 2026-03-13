@@ -168,6 +168,12 @@ function renderBodyPartList() {
     filteredPlaylists.forEach(playlist => {
         const card = document.createElement('div');
         card.className = `body-part-card ${!playlist.enabled ? 'disabled' : ''}`;
+
+        // ★重要：背景画像のCSSが data-attribute を条件にしているため付与する
+        // これにより css/style.css の
+        // .body-part-card[data-category="..."][data-body-part="..."]::after がマッチする
+        card.dataset.category = playlist.category;     // data-category="palpation" / "ortho"
+        card.dataset.bodyPart = playlist.bodyPart;     // data-body-part="head-neck" など
         
         card.innerHTML = `
             <div class="body-part-name">${playlist.bodyPartName}</div>
