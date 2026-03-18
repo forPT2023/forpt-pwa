@@ -1,6 +1,6 @@
 {
   "name": "触診・検査アプリ forPT",
-  "short_name": "forPT App",
+  "short_name": "触診・検査アプリ",
   "description": "理学療法士向けの触診・整形外科的テスト動画アプリ",
   "start_url": "/",
   "display": "standalone",
